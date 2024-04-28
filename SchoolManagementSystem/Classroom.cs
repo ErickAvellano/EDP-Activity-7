@@ -185,6 +185,7 @@ namespace SchoolManagementSystem
             {
                 connection.Open();
                 // Update the teacher record in the database
+                //Updates for alt
                 string query = "UPDATE classrooms SET TeacherID = @teacherid, CourseID = @courseid, Schedule = @sched, RoomNumber = @room WHERE ClassroomID = @classroomid";
                 command = new MySqlCommand(query, connection);
                 command.Parameters.AddWithValue("@teacherid", teacherid);
@@ -261,7 +262,9 @@ namespace SchoolManagementSystem
         private void Addnewbtn_Click(object sender, EventArgs e)
         {
             int teacherid = Convert.ToInt32(teacherID.SelectedItem);
+
             int courseid = Convert.ToInt32(courseID.SelectedItem);
+
             string sched = schedule.Text;
             string room = roomNum.Text;
             AddNewRoom(teacherid, courseid, sched, room);
