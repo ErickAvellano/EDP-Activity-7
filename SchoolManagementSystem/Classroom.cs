@@ -321,5 +321,10 @@ namespace SchoolManagementSystem
         {
 
         }
+
+        private void courseID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Update
+        }
     }
 }

@@ -300,6 +300,7 @@
             this.courseID.Name = "courseID";
             this.courseID.Size = new System.Drawing.Size(109, 21);
             this.courseID.TabIndex = 51;
+            this.courseID.SelectedIndexChanged += new System.EventHandler(this.courseID_SelectedIndexChanged);
             // 
             // Classroom
             // 
