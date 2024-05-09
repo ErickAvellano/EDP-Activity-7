@@ -292,6 +292,7 @@
             this.teacherID.Name = "teacherID";
             this.teacherID.Size = new System.Drawing.Size(109, 21);
             this.teacherID.TabIndex = 50;
+            this.teacherID.SelectedIndexChanged += new System.EventHandler(this.teacherID_SelectedIndexChanged);
             // 
             // courseID
             // 
@@ -300,6 +301,7 @@
             this.courseID.Name = "courseID";
             this.courseID.Size = new System.Drawing.Size(109, 21);
             this.courseID.TabIndex = 51;
+            this.courseID.SelectedIndexChanged += new System.EventHandler(this.courseID_SelectedIndexChanged);
             // 
             // Classroom
             // 

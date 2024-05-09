@@ -321,5 +321,15 @@ namespace SchoolManagementSystem
         {
 
         }
+
+        private void courseID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Update
+        }
+
+        private void teacherID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+               //Pull request
+        }
     }
 }
